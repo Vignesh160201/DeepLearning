@@ -4,7 +4,8 @@ from PIL import Image
 import numpy as np
 
 # Load the saved model
-MODEL_PATH = 'C:/Users/Vignesh/Downloads/SRM/Sem/Deep Learning/mobilenetv2_beans_model.keras'
+#MODEL_PATH = 'C:/Users/Vignesh/Downloads/SRM/Sem/Deep Learning/mobilenetv2_beans_model.keras'
+MODEL_path = 'https://github.com/Vignesh160201/DeepLearning/blob/c1108151e3f06293efa3d4f332306dc7abb13c88/mobilenetv2_beans_model.keras'
 model = load_model(MODEL_PATH)
 
 # Define the class names (replace with your actual class names)
